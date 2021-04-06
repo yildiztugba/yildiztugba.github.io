@@ -4,49 +4,25 @@ body,main{
         background-color:rgba(220, 211, 230, 1);
 }
 .grid {
-    overflow:auto;
-    display: grid;
-    grid-template-rows: 30% 30% 30% 30%;
-    grid-template-areas: "homePage""aboutMePage", "belgiumPage", "contactPage";
-
-  }
-.homePage{
-        height:1000px;
-        width: 100%;
-        background-color: rgba(220, 211, 230, 1);
-        padding: 0%;
-        margin: 0%;
-  
+        overflow:auto;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30%;
+        grid-template-areas: "homePage""aboutMePage", "belgiumPage", "contactPage";
 }
 
-.aboutMePage
-{       
-        height:1000px;
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-
-}
-.aboutMeInfo{
-        text-align: center;
-        font-family: 'Charmonman';
-        font-size: 30px;
-
-
-}
-
- h2{
+h2{
 text-align: center;
 font-family: 'Charmonman';
 font-size: 30px;
 
 
         }
-.belgiumPage
+.Page
 {       
         height:1000px;
         width: 100%;
-       
+        padding: 0%;
+        margin: 0%;
 
 
 }
@@ -55,18 +31,10 @@ font-size: 30px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 50px;
+        margin-top: 70px;
         width: 40%;
         max-width: 50%;
         height: auto;
-
-}
-.contactPage
-{       
-        height:1000px;
-        width: 100%;
-       
-
 
 }
 .right{
