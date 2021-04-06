@@ -53,7 +53,16 @@ font-size: 30px;
         right: 0px;
         text-align: center;
 }
+.Icon{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 10%;
+        border-radius: 50%;
+        height: auto;
+        background-color:rgba(220, 211, 230, 1);
 
+}
 ul {
         margin-top: 110px;
         padding-right: 0px;

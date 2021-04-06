@@ -5,7 +5,7 @@
 * Developing a home page for yourself using HTML & CSS
 * having a live home page you can share with the world!
   
-## How to
+## How to use
 
 ```
 go to the https://yildiztugba.github.io/ website.
