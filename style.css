@@ -1,0 +1,19 @@
+body{
+background-color: aquamarine;
+
+}
+.right{
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    text-align: right;
+}
+ul {
+    margin-top: 110px;
+    padding-right: 0px;
+  }
+  li {
+    list-style-type: none;
+    padding-top: 10px;
+  }
+  
