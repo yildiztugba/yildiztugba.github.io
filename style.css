@@ -1,19 +1,32 @@
-body{
-    background-color: aquamarine;
-    
-    }
-    .right{
+
+.right{
         position: fixed;
         top: 200px;
         right: 0px;
-        text-align: right;
-    }
-    ul {
+        text-align: center;
+}
+ul {
         margin-top: 110px;
         padding-right: 0px;
-      }
-      li {
+}
+li {
         list-style-type: none;
         padding-top: 10px;
-      }
-      
+}
+.rightMenu {
+  display: table-cell;
+  width: 105px;
+  height: 70px;
+  transition: width 1s;
+  border-radius: 2px;
+  border: none;
+  color: grey;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px grey;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+ padding-top: 20px;;
+}
