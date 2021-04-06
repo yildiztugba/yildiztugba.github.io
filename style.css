@@ -59,6 +59,17 @@ font-size: 30px;
 
 
 }
+.belgiumimage{
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 40%;
+        max-width: 50%;
+        height: auto;
+
+}
 .contactPage
 {       
         height:1000px;
