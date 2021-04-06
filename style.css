@@ -34,16 +34,7 @@ body,main{
 
 
 }
-.homepageImage{
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        width: 40%;
-        max-width: 50%;
-        height: auto;
-        }
+
  h2{
 text-align: center;
 font-family: 'Charmonman';
@@ -59,7 +50,7 @@ font-size: 30px;
 
 
 }
-.belgiumimage{
+.Image{
         border-radius: 50%;
         display: block;
         margin-left: auto;
