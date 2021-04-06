@@ -53,11 +53,15 @@ font-size: 30px;
         right: 0px;
         text-align: center;
 }
+
 ul {
         margin-top: 110px;
         padding-right: 0px;
+        vertical-align: middle;
+        display: inline;
 }
 li {
+       
         list-style-type: none;
         padding-top: 10px;
 }
