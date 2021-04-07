@@ -1,78 +1,74 @@
-body,main{
-        padding: 0%;
-        margin: 0%; 
-        background-color:rgba(220, 211, 230, 1);
+body,
+main {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(220, 211, 230, 1);
 }
 .grid {
-        overflow:auto;
-        display: grid;
-        grid-template-rows: 1000px 1000px 1000px 1000px;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: 1000px 1000px 1000px 1000px;
 
-        grid-template-areas: "HomePage","AboutMePage", "BelgiumPage", "ContactPage";
+  grid-template-areas: "HomePage", "AboutMePage", "BelgiumPage", "ContactPage";
 }
 
-.HomePage{ grid-area: auto;
+.HomePage {
+  grid-area: auto;
 }
-.HomeAboutMePage{ grid-area: auto;
+.HomeAboutMePage {
+  grid-area: auto;
 }
-.BelgiumPage{ grid-area: auto;
+.BelgiumPage {
+  grid-area: auto;
 }
-.ContactPage{ grid-area: auto;
+.ContactPage {
+  grid-area: auto;
 }
-h2{
-text-align: center;
-font-family: 'Charmonman';
-font-size: 30px;
-
-
-        }
-.Page
-{       
-       
-        width: 100%;
-        padding: 0%;
-        margin: 0%;
-
-
+h2 {
+  text-align: center;
+  font-family: "Charmonman";
+  font-size: 30px;
 }
-.Image{
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        width: 40%;
-        max-width: 50%;
-        height: auto;
-        padding-top: 30px;
-
+.Page {
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
 }
-.right{
-        position: fixed;
-        top: 200px;
-        right: 0px;
-        text-align: center;
+.Image {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 40%;
+  max-width: 50%;
+  height: auto;
+  padding-top: 30px;
 }
-.Icon{
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 10%;
-        border-radius: 50%;
-        height: auto;
-        background-color:rgba(220, 211, 230, 1);
-
+.right {
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  text-align: center;
+}
+.Icon {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 10%;
+  border-radius: 50%;
+  height: auto;
+  background-color: rgba(220, 211, 230, 1);
 }
 ul {
-        margin-top: 110px;
-        padding-right: 0px;
-        vertical-align: middle;
-        display: inline;
+  margin-top: 110px;
+  padding-right: 0px;
+  vertical-align: middle;
+  display: inline;
 }
 li {
-       
-        list-style-type: none;
-        padding-top: 10px;
+  list-style-type: none;
+  padding-top: 10px;
 }
 .rightMenu {
   display: table-cell;
@@ -89,11 +85,11 @@ li {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  padding-top: 20px;;
-  font-family: 'Charmonman';
+  padding-top: 20px;
+  font-family: "Charmonman";
 }
 
-.rightMenu:hover{
-        opacity: 7;
-        box-shadow: 0px 2px 11px grey;
+.rightMenu:hover {
+  opacity: 7;
+  box-shadow: 0px 2px 11px grey;
 }
