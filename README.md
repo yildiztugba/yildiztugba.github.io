@@ -2,12 +2,9 @@
 
 ## The aim
 
-* Developing a home page for yourself using HTML & CSS
-* having a live home page you can share with the world!
+* Developing a home page by using HTML & CSS
+* having a live home page
   
 ## How to use
 
-```
-go to the https://yildiztugba.github.io/ website.
-
-```
+  click [github.io](https://yildiztugba.github.io/)
