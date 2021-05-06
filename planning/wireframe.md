@@ -1,1 +1,1 @@
-![wireframeHomePage](https://github.com/yildiztugba/yildiztugba.github.io/image/wireframe.png)
+![wireframeHomePage](https://github.com/yildiztugba/yildiztugba.github.io/blob/main/image/wireframe.png)
