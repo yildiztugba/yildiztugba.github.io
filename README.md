@@ -18,26 +18,29 @@ The aim is rebuilding HomePage at https://yildiztugba.github.io/.
 
 ## Stages
 
-- [repo]()
+ [repo](https://github.com/yildiztugba/yildiztugba.github.io)
   - with your partner:
   - [ ] README
   - on your own:
-  - [ ] License
-  - [ ] Contributor Guidelines
-  - [ ] Code of Conduct
-  - [ ] [project board]()
-- [live demo](https://username.github.io)
+  - [x] License
+  - [x] Contributor Guidelines
+  - [x] Code of Conduct
+  - [x] [project board](https://github.com/yildiztugba/yildiztugba.github.io/projects/1)
+
+
+- [live demo](https://yildiztugba.github.io/)
 - /planning
   - with your project partner:
-  - [ ] interview (your completed interview template)
+  - [x] interview (your completed interview template)
   - [ ] backlog (developed with your partner based on the interview)
-  - [ ] wireframe (design your site's outline together)
+  - [x] wireframe (design your site's outline together)
   - [ ] retrospective
   - on your own:
-  - [ ] schedule (like communication plan, but for yourself)
+  - [x] schedule (like communication plan, but for yourself)
   - [ ] constraints
   - [ ] development strategy
   - [ ] Figma file (in week 2)
+
 - Technical Requirements. do your best to include each of these in your site:
   - [ ] CSS Selectors
   - [ ] CSS Flexbox
@@ -46,6 +49,13 @@ The aim is rebuilding HomePage at https://yildiztugba.github.io/.
   - [ ] CSS Media Queries
   - [ ] HTML Semantic elements
   - [ ] ARIA labels
+
+## My Contributions
+
+- Home Pages:
+  - [ ] [classmate's name](link_to_your_contribution)
+  - [ ] [classmate's name](link_to_your_contribution)
+  - [ ] [classmate's name](link_to_your_contribution)
 
 ## Technologies
 
