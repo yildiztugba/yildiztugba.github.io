@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Charmonman"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a href="#Home"><img class="Icon" src="h2.jpg" alt="home" /></a>
+    <div class="grid">
+      <div class="Page HomePage">
+        <img
+          id="Home"
+          class="Image"
+          src="laptopimage.jpg"
+          alt="Welcome image"
+        />
+        <h2>Hello,there<br />I'm Tugba</h2>
+      </div>
+
+      <div class="Page AboutMePage">
+        <img id="About" class="Image" src="aboutmeimage.jpg" alt="about me" />
+        <h2 class="aboutMeInfo">
+          I'm student at Hack Your Future to become a Software Developer.
+          <br />I have a bachelor's degree in Teaching Computer Education.
+        </h2>
+      </div>
+
+      <div class="Page BelgiumPage">
+        <img id="Belgium" class="Image" src="tervurenimage.jpg" alt="Belgium" />
+        <h2>
+          I've been living in Belgium for 3 years. This place is Tervuren
+          Park<br />
+          where i enjoy to spend my time with my husband and my daughter.
+        </h2>
+      </div>
+
+      <div class="Page ContactPage">
+        <img id="Contact" class="Image" src="contact.jpg" alt="Contact me" />
+        <h2>Feel free to contact me: okra.tb@gmail.com</h2>
+      </div>
+    </div>
+
+    <div class="right">
+      <ul>
+        <li><a class="rightMenu" href="#About">About me</a></li>
+        <li><a class="rightMenu" href="#Belgium">Belgium</a></li>
+        <li><a class="rightMenu" href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
