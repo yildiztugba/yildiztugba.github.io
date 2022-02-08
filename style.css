@@ -41,22 +41,25 @@ li > a{
 
 /*Main Content*/
 
-h1{
-  font-size: 300%;  
-}
+
 
 .grid {
   overflow: auto;
   display: grid;
   grid-template-rows: 1000px 1000px 1000px 1000px 1000px;
-
   grid-template-areas: "homePage", "aboutPage", "resumePage", "workPage","contactPage";
 }
 
 .homePage {
   grid-area: auto;
   background-color: aqua;
+  
 }
+.homePage h1{
+  font-size: 300%;  
+  padding: 20%;
+}
+
 .aboutPage {
   grid-area: auto;
   background-color: blue;
