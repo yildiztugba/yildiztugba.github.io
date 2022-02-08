@@ -55,11 +55,13 @@ li > a{
   background-color: aqua;
   
 }
-.homePage h1{
+h1{
   font-size: 300%;  
+ 
+}
+.mainContent{
   padding: 20%;
 }
-
 .aboutPage {
   grid-area: auto;
   background-color: blue;
