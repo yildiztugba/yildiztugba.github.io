@@ -47,3 +47,32 @@ main{
 h1{
   font-size: 300%;  
 }
+
+.grid {
+  overflow: auto;
+  display: grid;
+  grid-template-rows: 1000px 1000px 1000px 1000px 1000px;
+
+  grid-template-areas: "homePage", "aboutPage", "resumePage", "workPage","contactPage";
+}
+
+.homePage {
+  grid-area: auto;
+  background-color: aqua;
+}
+.aboutPage {
+  grid-area: auto;
+  background-color: blue;
+}
+.resumePage {
+  grid-area: auto;
+  background-color: blueviolet;
+}
+.workPage {
+  grid-area: auto;
+  background-color: burlywood;
+}
+.contactPage {
+  grid-area: auto;
+  background-color: crimson;
+}
