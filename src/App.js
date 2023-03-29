@@ -8,9 +8,9 @@ function App() {
       <main>
         <section>
           <nav className="py-10 mb-12 flex justify-between">
-          <ul>
-            <li className="cursor-pointer "><a>Portfolio</a></li>
-            <li><a>Resume</a></li>
+          <ul className="flex ml-auto pr-32 cursor-pointer">
+            <li><a className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"> Portfolio</a></li>
+            <li><a className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" >Resume</a></li>
           </ul>
           </nav>
         </section>
