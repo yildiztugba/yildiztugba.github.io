@@ -1,4 +1,5 @@
 import './App.css';
+
 import React from "react"
 import {
   AiFillMail,
@@ -28,11 +29,14 @@ function App() {
             <p className="text-md py-5 leading-8 text-gray-800 max-w-lg mx-auto">Computer Teaching graduate,passionate about front end development. worked as a tutor and IT coordinator. Experienced in a range of modern technologies including JavaScript, React and HTML5/CSS. Problem-solver, hard-worker and organized person.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
-          <AiFillMail />
-          <AiFillLinkedin />
-          <AiFillGithub />
+          <a href="mailto:okra.yildiz@gmail.com" target="_blank" ><AiFillMail /></a> 
+          <a href="https://www.linkedin.com/in/yildiztugba/" target="_blank" ><AiFillLinkedin /></a>
+          <a href="https://github.com/yildiztugba"target="_blank" ><AiFillGithub /></a>
         </div>
         </section>
+
+  
+
       </main>
     </div>
 
