@@ -39,7 +39,7 @@ export default function Skills (){
                             </div>
                         </div>
                     </div>
-                    {/*Skill3*/}
+                    {/*Skill4*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -47,7 +47,7 @@ export default function Skills (){
                             </div>
                         </div>
                     </div>
-                    {/*Skill3*/}
+                    {/*Skill5*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -55,7 +55,7 @@ export default function Skills (){
                             </div>
                         </div>
                     </div>
-                    {/*Skill3*/}
+                    {/*Skill6*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -63,7 +63,7 @@ export default function Skills (){
                             </div>
                         </div>
                     </div>
-                     {/*Skill3*/}
+                    {/*Skill7*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -71,7 +71,7 @@ export default function Skills (){
                             </div>
                         </div>
                     </div>
-                     {/*Skill3*/}
+                    {/*Skill8*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
