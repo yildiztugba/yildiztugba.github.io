@@ -7,7 +7,7 @@ import {
 
 export default function About(){
     return(
-        <div className="p-24 h-auto">
+        <div id="about" className="p-24 h-auto">
           <div className="text-center p-10 " >
             <h1 className="text-5xl py-2 text-teal-600 font-medium">Tugba Yildiz</h1>
             <h3 className="text-2xl py-2" >Front-end Developer</h3>
