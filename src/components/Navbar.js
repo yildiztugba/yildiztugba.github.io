@@ -10,7 +10,7 @@ export default function Navbar(){
     }
 
     return(
-        <section className="fixed w-full h-20 shadow-xl z-[100]">
+        <div className="fixed w-full h-20 shadow-xl z-[100]">
             <nav className="py-10 mb-12 flex justify-between">
                 <ul className=" hidden md:flex ml-auto pr-32 cursor-pointer">
                     <li><a className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> Home</a></li>
@@ -42,7 +42,7 @@ export default function Navbar(){
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 
 }
