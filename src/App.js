@@ -9,14 +9,7 @@ function App() {
     <div>
       <main>
         <Navbar />
-        
-        {/*ABOUT */} 
         <About />
-
-
-
-  
-
       </main>
     </div>
 
