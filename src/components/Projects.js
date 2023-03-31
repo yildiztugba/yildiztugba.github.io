@@ -9,7 +9,7 @@ export default function Projects(){
 
             <div className="grid md:grid-cols-2 gap-8">
                 <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                    <img src={project1}/>
+                    <img className="rounded-xl group-hover:opacity-10" src={project1}/>
                 </div>
             </div>
             </div>
