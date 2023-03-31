@@ -1,5 +1,5 @@
 import './App.css';
-
+import Navbar from "./components/Navbar"
 import React from "react"
 import {
   AiFillMail,
@@ -12,14 +12,7 @@ function App() {
     <div>
       <main>
         {/*NAVBAR */} 
-        <section>
-          <nav className="py-10 mb-12 flex justify-between">
-          <ul className="flex ml-auto pr-32 cursor-pointer">
-            <li><a className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"> Portfolio</a></li>
-            <li><a href="https://github.com/yildiztugba/yildiztugba.github.io/raw/uploadpdf/resume-tugba-yildiz.pdf" target="_blank"  className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" >Resume</a></li>
-          </ul>
-          </nav>
-        </section>
+        <Navbar />
         
         {/*ABOUT */} 
         <section>
@@ -34,6 +27,8 @@ function App() {
           <a href="https://github.com/yildiztugba"target="_blank" ><AiFillGithub /></a>
         </div>
         </section>
+
+
 
   
 
