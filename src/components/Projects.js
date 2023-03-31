@@ -4,7 +4,7 @@ export default function Projects(){
     return(
         <div className="w-full"> 
         <div className="max-w-[1240px] mx-auto px-2 py-10">
-            <p className="text-xl tracking-widest uppercase text-[#5651e5]"> Projects</p>
+            <p className="tracking-widest uppercase text-5xl py-2 text-teal-600 font-medium"> Projects</p>
             <h2 className="py-4 text-lg uppercase font-bold" >What I've Built</h2>
 
             <div className="grid md:grid-cols-2 gap-8">
