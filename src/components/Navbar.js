@@ -9,6 +9,7 @@ export default function Navbar(){
         setNav(!nav)
     }
 
+
     return(
         <div className="fixed w-full h-20 shadow-xl z-[100]">
             <nav className="py-10 mb-12 flex justify-between">
@@ -34,10 +35,10 @@ export default function Navbar(){
                     </div>
                     <div className="py-10 flex flex-col">
                         <ul className="uppercase ">
-                            <li className="py-4 text-sm cursor-pointer"><a href="/#about"> Home</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a href="/#skills"> My Skills</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a href="/#projects" > Projects</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a > Contact</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#about" onClick={handleNav}> Home</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#skills" onClick={handleNav}> My Skills</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#projects" onClick={handleNav} > Projects</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a onClick={handleNav}> Contact</a></li>
                     </ul>
                     </div>
                 </div>
