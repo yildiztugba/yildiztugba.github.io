@@ -34,9 +34,9 @@ export default function Navbar(){
                     </div>
                     <div className="py-10 flex flex-col">
                         <ul className="uppercase ">
-                            <li className="py-4 text-sm cursor-pointer"><a > Home</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a > My Skills</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a > Portfolio</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#about"> Home</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#skills"> My Skills</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#projects" > Projects</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a > Contact</a></li>
                     </ul>
                     </div>
