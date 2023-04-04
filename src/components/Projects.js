@@ -1,5 +1,7 @@
 import React from "react"
-const project1 =require('./web2.png')
+const project1 =require('./project1.png')
+const project2 =require('./project2.png')
+const project3 =require('./project3.png')
 export default function Projects(){
     return(
         <div id="projects" className="w-full p-16"> 
@@ -17,19 +19,19 @@ export default function Projects(){
                     </div>
                 </div>
                 <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                    <img className="rounded-xl group-hover:opacity-10" src={project1}/>
+                    <img className="rounded-xl group-hover:opacity-10" src={project2}/>
                     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                        <h3 className="text-2xl text-white tracking-wider text-center">Game:Tenzies</h3>
+                        <h3 className="text-2xl text-white tracking-wider text-center">Meme Generator</h3>
                         <p className="pb-4 pt-2 text-white text-center">React Js</p>
-                        <a href="/"><p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"> More Info</p></a>
+                        <a href="https://github.com/yildiztugba/Meme-generator"><p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"> More Info</p></a>
                     </div>
                 </div>
                 <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                    <img className="rounded-xl group-hover:opacity-10" src={project1}/>
+                    <img className="rounded-xl group-hover:opacity-10" src={project3}/>
                     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                        <h3 className="text-2xl text-white tracking-wider text-center">Game:Tenzies</h3>
+                        <h3 className="text-2xl text-white tracking-wider text-center">Markdown App</h3>
                         <p className="pb-4 pt-2 text-white text-center">React Js</p>
-                        <a href="/"><p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"> More Info</p></a>
+                        <a href="https://github.com/yildiztugba/markdown-notes-app"><p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"> More Info</p></a>
                     </div>
                 </div>
                 <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
