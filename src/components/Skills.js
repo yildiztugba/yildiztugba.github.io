@@ -7,6 +7,7 @@ const sassImage = require('./sass.png')
 const nodejsImage = require('./nodejs.png')
 const bootstrapImage = require('./bootstrap.png')
 const figmaImage = require('./figma.png')
+const reduxImage= require('./redux.png')
 export default function Skills (){
     return(
 
@@ -85,6 +86,14 @@ export default function Skills (){
                                 <img src={figmaImage}/>
                             </div>
                             <h1>FIGMA</h1>
+                        </div>
+                    </div>
+                    <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <img src={reduxImage}/>
+                            </div>
+                            <h1>REDUX</h1>
                         </div>
                     </div>
         </div> 
