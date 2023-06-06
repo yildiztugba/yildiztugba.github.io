@@ -10,8 +10,8 @@ const project8 =require('./project8.png')
 const project9 =require('./project9.png')
 export default function Projects(){
     return(
-        <div id="projects" className="w-full p-16"> 
-        <div className="max-w-[1240px] mx-auto px-2 py-10">
+        <div id="projects" className="w-full"> 
+        <div className="max-w-[1240px] mx-auto py-3">
             <p className="tracking-widest uppercase text-5xl py-2 text-teal-600 font-medium"> Projects</p>
             <h2 className="py-4 text-lg uppercase font-bold" >ADVANCED REACT PROJECTS</h2>
             
