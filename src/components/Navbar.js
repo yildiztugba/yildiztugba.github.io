@@ -14,10 +14,9 @@ export default function Navbar(){
         <div className="fixed w-full h-20 shadow-xl z-[100]">
             <nav className="py-10 mb-12 flex justify-between">
                 <ul className=" hidden md:flex ml-auto pr-32 cursor-pointer">
-                    <li><a href="/#about" className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> Home</a></li>
+                    <li><a href="/#about" className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> About</a></li>
                     <li><a href="/#skills" className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> My Skills</a></li>
                     <li><a href="/#projects" className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> Projects</a></li>
-                    <li><a className="bg-gradient-to-r from-purple-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:border-b uppercase text-xs"> Contact</a></li>
                 </ul>
                 <div onClick={handleNav} className="md:hidden ">
                     <AiOutlineMenu  size={25}/>
@@ -35,7 +34,7 @@ export default function Navbar(){
                     </div>
                     <div className="py-10 flex flex-col">
                         <ul className="uppercase ">
-                            <li className="py-4 text-sm cursor-pointer"><a href="/#about" onClick={handleNav}> Home</a></li>
+                            <li className="py-4 text-sm cursor-pointer"><a href="/#about" onClick={handleNav}> About</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a href="/#skills" onClick={handleNav}> My Skills</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a href="/#projects" onClick={handleNav} > Projects</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a onClick={handleNav}> Contact</a></li>

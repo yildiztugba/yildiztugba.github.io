@@ -21,6 +21,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={reactImage}/>
                             </div>
+                            <h1>REACT</h1>
                         </div>
                     </div>
                     {/*Skill2*/}    
@@ -29,6 +30,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={javascriptImage}/>
                             </div>
+                            <h1>JAVASCRIPT</h1>
                         </div>
                     </div>
                     {/*Skill3*/}
@@ -37,6 +39,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={htmlImage}/>
                             </div>
+                            <h1>HTML</h1>
                         </div>
                     </div>
                     {/*Skill4*/}
@@ -45,6 +48,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={cssImage}/>
                             </div>
+                            <h1>CSS</h1>
                         </div>
                     </div>
                     {/*Skill5*/}
@@ -53,6 +57,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={nodejsImage}/>
                             </div>
+                            <h1>NODE.JS</h1>
                         </div>
                     </div>
                     {/*Skill6*/}
@@ -61,6 +66,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={sassImage}/>
                             </div>
+                            <h1>SASS</h1>
                         </div>
                     </div>
                     {/*Skill7*/}
@@ -69,6 +75,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={bootstrapImage}/>
                             </div>
+                            <h1>BOOTSTRAP</h1>
                         </div>
                     </div>
                     {/*Skill8*/}
@@ -77,6 +84,7 @@ export default function Skills (){
                             <div className="m-auto">
                                 <img src={figmaImage}/>
                             </div>
+                            <h1>FIGMA</h1>
                         </div>
                     </div>
         </div> 
