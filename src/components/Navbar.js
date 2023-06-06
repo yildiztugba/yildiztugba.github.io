@@ -37,7 +37,6 @@ export default function Navbar(){
                             <li className="py-4 text-sm cursor-pointer"><a href="/#about" onClick={handleNav}> About</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a href="/#skills" onClick={handleNav}> My Skills</a></li>
                             <li className="py-4 text-sm cursor-pointer"><a href="/#projects" onClick={handleNav} > Projects</a></li>
-                            <li className="py-4 text-sm cursor-pointer"><a onClick={handleNav}> Contact</a></li>
                     </ul>
                     </div>
                 </div>
