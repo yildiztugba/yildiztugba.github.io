@@ -12,8 +12,8 @@ export default function Projects(){
     return(
         <div id="projects" className="w-full"> 
         <div className="max-w-[1240px] mx-auto py-3">
-            <p className="tracking-widest uppercase text-5xl py-2 text-teal-600 font-medium"> Projects</p>
-            <h2 className="py-4 text-lg uppercase font-bold" >ADVANCED REACT PROJECTS</h2>
+            <p className="tracking-widest uppercase text-5xl py-2 text-center text-teal-600 font-medium"> Projects</p>
+            <h2 className="py-4 text-lg uppercase text-center font-bold" >ADVANCED REACT PROJECTS</h2>
             
             <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
                     <img className="rounded-xl group-hover:opacity-10" src={project8}/>
@@ -38,7 +38,7 @@ export default function Projects(){
 
                     </div>
                 </div>
-            <h2 className="py-4 text-lg uppercase font-bold" >FINAL PROJECT FROM HYF COURSE</h2>
+            <h2 className="py-4 text-lg uppercase text-center font-bold" >FINAL PROJECT FROM HYF COURSE</h2>
             <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
                     <img className="rounded-xl group-hover:opacity-10" src={project7}/>
                     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
@@ -49,7 +49,7 @@ export default function Projects(){
                         <a href="https://behelp.netlify.app/" target="_blank"><p className="text-center py-0 text-xs rounded-lg m-1 bg-white text-gray-700 font-bold text-lg cursor-pointer md:py-3 md:m-2">  Demo</p></a>
                     </div>
                 </div>
-            <h2 className="py-4 text-lg uppercase font-bold" >OTHER PROJECTS</h2>
+            <h2 className="py-4 text-lg uppercase text-center font-bold" >OTHER PROJECTS</h2>
             <div className="grid md:grid-cols-2 gap-8">
                 <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
                     <img className="rounded-xl group-hover:opacity-10" src={project1}/>

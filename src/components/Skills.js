@@ -13,8 +13,8 @@ export default function Skills (){
 
     <div id="skills" className="w-full lg:h-screen pt-4 md:pt-9">
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-            <p className=" tracking-widest uppercase text-5xl py-2 text-teal-600 font-medium">Skills</p>
-            <h2 className="py-4 text-lg uppercase font-bold">What I can Do</h2>
+            <p className=" tracking-widest uppercase text-5xl text-center py-2 text-teal-600 font-medium">Skills</p>
+            <h2 className="py-4 text-lg uppercase text-center font-bold">What I can Do</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/*Skill1*/}
                     <div className="p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
