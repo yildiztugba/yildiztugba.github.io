@@ -44,7 +44,7 @@ export default function Projects(){
                     <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                         <h3 className=" text-xs md:text-2xl text-white font-bold tracking-wider text-center pb-0">Final Project: Behelp</h3>
                         <h2 className="text-white hidden text-justify md:block">The application connects international protection seekers with volunteers and organizations that can help them with adaptation and integration into society. <br/>I took an important part in front-end, deployment  and demo part. </h2>
-                        <p className="pb-4 pt-2 text-green-300 font-bold text-center hidden md:block">Vue,Javascript,Html,Css,Sass</p>
+                        <p className="pb-4 pt-2 text-green-300 font-bold text-center hidden md:block">Vue,Javascript,Html,Css,Nodejs,Sass</p>
                         <a href="https://github.com/yildiztugba/BeHelp" target="_blank"><p className="text-center py-0 m-1 rounded-lg bg-white text-gray-700 font-bold text-xs cursor-pointer md:py-3 md:m-2"> More Info</p></a>
                         <a href="https://behelp.netlify.app/" target="_blank"><p className="text-center py-0 text-xs rounded-lg m-1 bg-white text-gray-700 font-bold text-lg cursor-pointer md:py-3 md:m-2">  Demo</p></a>
                     </div>
